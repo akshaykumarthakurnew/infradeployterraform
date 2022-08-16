@@ -15,8 +15,8 @@ cluster_node_vm_size="Standard_A2_v2"
 logs_retention_days=30
 
 # Others
-region="brazilsouth"
-resource_group_name="rg-azure-aks"
+region="westeurope"
+resource_group_name="ak-dev-nl"
 
 # Tag control
 tag_component="aks_component"
