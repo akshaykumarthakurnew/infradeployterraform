@@ -23,16 +23,6 @@ resource "azurerm_kubernetes_cluster" "aks_cluster" {
     enabled = true
   }
 
-  addon_profile {
-    kube_dashboard {
-      enabled = true
-    }
-    oms_agent {
-      enabled                    = true
-      log_analytics_workspace_id = azurerm_log_analytics_workspace.insights.id
-    }
-  }
-
   identity {
     type = "SystemAssigned"
   }
