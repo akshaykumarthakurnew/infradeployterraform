@@ -16,7 +16,7 @@ logs_retention_days=30
 
 # Others
 region="westeurope"
-resource_group_name="ak-dev-nl"
+resource_group_name="ak-dev-nl1"
 
 # Tag control
 tag_component="aks_component"
