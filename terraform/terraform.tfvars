@@ -1,7 +1,7 @@
 # AKS Cluster
 cluster_dns_prefix="aks-test"
 cluster_name="aks-cluster"
-cluster_version="1.18.10"
+cluster_version="1.21.9"
 
 # AKS Nodes
 cluster_node_count_min=1
